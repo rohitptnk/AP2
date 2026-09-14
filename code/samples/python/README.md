@@ -23,6 +23,7 @@ in [`../certs/`](../certs).
 
 - Python 3.11+
 - [`uv`](https://docs.astral.sh/uv/)
+- Node.js (v18+) and `npm` (required for scenarios using the web client)
 - A Google API key from [Google AI Studio](https://aistudio.google.com/apikey),
   or Vertex AI ADC (`GOOGLE_GENAI_USE_VERTEXAI=true`).
 

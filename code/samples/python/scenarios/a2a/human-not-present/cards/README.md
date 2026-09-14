@@ -52,6 +52,12 @@ This sample consists of:
 
 ## Executing the Example
 
+### Prerequisites
+
+- **Python 3.11+** and [`uv`](https://docs.astral.sh/uv/) (to run the agent and MCP servers)
+- **Node.js (v18+)** and **npm** (to install dependencies and run the web client)
+- A Google API key from [Google AI Studio](https://aistudio.google.com/apikey) or Vertex AI ADC
+
 ### Setup
 
 Ensure you have obtained a Google API key from
