@@ -32,7 +32,7 @@ This sample consists of:
   merchant's payment processor.
 
 ## Key Features
- 
+
 ### 1. Autonomous Purchase on Trigger
 
 - The flow is initiated by an external trigger (a mock price drop or item drop)
