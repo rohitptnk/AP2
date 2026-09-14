@@ -31,7 +31,7 @@ in [`../certs/`](../certs).
 
 Create a `.env` file at the repository root with at least your API key:
 
-```
+```sh
 GOOGLE_API_KEY=<your_api_key>
 ```
 
@@ -39,7 +39,7 @@ Some scenarios (e.g. `shopping_agent_v2`) read additional variables from a
 local `.env` inside their role directory — see the scenario's own README
 when applicable. For example:
 
-```
+```sh
 GOOGLE_API_KEY=<your_api_key>
 AGENT_MODEL=gemini-3.1-flash-lite-preview
 ```

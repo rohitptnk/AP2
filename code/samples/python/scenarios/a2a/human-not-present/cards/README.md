@@ -32,20 +32,20 @@ This sample consists of:
   merchant's payment processor.
 
 ## Key Features
-
-**1. Autonomous Purchase on Trigger**
+ 
+### 1. Autonomous Purchase on Trigger
 
 - The flow is initiated by an external trigger (a mock price drop or item drop)
   rather than a direct user command at the moment of purchase.
 - The agent evaluates the condition and proceeds with the purchase if it matches
   the user's intent.
 
-**2. Pre-authorized Mandate Usage**
+### 2. Pre-authorized Mandate Usage
 
 - The agent leverages a pre-authorized mandate to interact with the credentials
   provider and payment processor.
 
-**3. Card purchase with DPAN**
+### 3. Card purchase with DPAN
 
 - The preferred payment method is a tokenized (DPAN) card, managed by the
   Credentials Provider.
